@@ -1,0 +1,52 @@
+body{
+    font-family: Arial;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#007BFF;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.search{
+    text-align:center;
+    margin:20px;
+}
+
+.search input{
+    padding:10px;
+    width:250px;
+}
+
+.search button{
+    padding:10px;
+    background:#007BFF;
+    color:white;
+    border:none;
+}
+
+.jobs{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.job-card{
+    background:white;
+    padding:20px;
+    width:250px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.job-card button{
+    background:green;
+    color:white;
+    padding:10px;
+    border:none;
+    cursor:pointer;
+}
